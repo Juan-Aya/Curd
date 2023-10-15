@@ -1,0 +1,96 @@
+/* Estilos para el fondo y la caja principal */
+*{
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+}
+html, body, .fondo{
+    height: 100%;
+    overflow: hidden;
+}
+.fondo {
+    background-color: #C5D2EC;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* Estilos para el título */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los campos de entrada y los botones */
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-control {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#nuevaContrasena {
+    margin-top: 10px;
+}
+
+.btn-secondary,
+.btn-primary {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Estilos para el enlace de redirección a página_administrador.php */
+.link-volver {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #051840;
+    text-decoration: none;
+}
+
+.link-volver:hover {
+    text-decoration: underline;
+}
+
+.modal-content{
+    border: 1px solid black;
+}
+
+.modal-body
+{
+    background-color: #e1e2e4;
+}
+label
+{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.modal-dialog
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.modal
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    height: auto;
+    
+}
+
+
+
+
+
